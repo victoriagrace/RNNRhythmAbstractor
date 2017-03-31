@@ -21,8 +21,8 @@ for R = 1:length(seq_ind)/2
 %     counter_orig(R)
    output(ind) = counter_orig(R)
 end 
-subplot(2,1,1)
+subplot(2,1,1) % remapped target
 bar(output)
 
-subplot(2,1,2)
+subplot(2,1,2) % network output
 bar(counter_out)
